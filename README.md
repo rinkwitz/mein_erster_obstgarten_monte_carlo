@@ -8,10 +8,13 @@ game ["Mein erster Obstgarten"](https://www.haba-play.com/de_DE/meine-ersten-spi
 ## Results
 
 Results after 100000 simulations for varying 
-* _'player strategies: min, max, random'_
-* _number of fruits taken if the dice showed the basket symbol_
-* _numbers of each fruit_
-* _number of steps which the raven needs in order to win_
+* player strategies (when dice shows basket symbol)
+  * _max_: take the fruit that is still the most available
+  * _min_: take fruit of which there is the least there
+  * _random_: take random available fruit
+* number of fruits taken if the dice showed the basket symbol
+* numbers of each fruit
+* number of steps which the raven needs in order to win
 
 ```commandline
 num_simulations: 100000
