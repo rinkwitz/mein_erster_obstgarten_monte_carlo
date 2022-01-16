@@ -4,10 +4,10 @@ import numpy as np
 
 
 class ObstgartenGame:
-    def __init__(self, strategy, num_fruits_taken_if_dice_shows_basket=1, num_each_fruits=4, num_raven_winning=5):
+    def __init__(self, strategy, num_fruits_taken_if_dice_shows_basket=1, num_each_fruit=4, num_raven_winning=5):
         self.strategy = strategy
         self.num_fruits_taken_if_dice_shows_basket = num_fruits_taken_if_dice_shows_basket
-        self.fruits = np.array([num_each_fruits, num_each_fruits, num_each_fruits, num_each_fruits], dtype=np.int)
+        self.fruits = np.array([num_each_fruit, num_each_fruit, num_each_fruit, num_each_fruit], dtype=np.int)
         self.num_raven_winning = num_raven_winning
         self.raven = 0
 
