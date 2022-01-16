@@ -4,7 +4,7 @@ from Helpers import get_prob_winning
 
 # Params:
 num_simulations = 100000
-num_fruits_taken_if_dice_shows_basket = 2
+num_fruits_taken_if_dice_shows_basket = 1
 
 # Run simulations:
 print(f'num_simulations: {num_simulations}\n'
