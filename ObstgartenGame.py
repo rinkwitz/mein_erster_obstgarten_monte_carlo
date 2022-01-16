@@ -20,6 +20,8 @@ def simulate(game):
             game.raven += 1
         else:
             for i in range(game.num_fruits_taken_if_dice_shows_basket):
+                if np.sum(game.fruits) == 0:
+                    continue
                 update_fruits(game)
     assert (game.raven == 5 and np.sum(game.fruits) != 0) or (game.raven < 5 and np.sum(game.fruits) == 0)
     if game.raven == 5:
