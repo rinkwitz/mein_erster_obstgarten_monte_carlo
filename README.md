@@ -18,7 +18,7 @@ Results after 100000 simulations for varying
 
 ```commandline
 num_simulations: 100000
-num_fruits: 4
+num_each_fruit: 4
 num_raven_winning: 5
 num_fruits_taken_if_dice_shows_basket: 1
 ----------------------------------------------------
@@ -29,7 +29,7 @@ strategy: random         probability_winning: 59.95%
 
 ```commandline
 num_simulations: 100000
-num_fruits: 4
+num_each_fruit: 4
 num_raven_winning: 5
 num_fruits_taken_if_dice_shows_basket: 2
 ----------------------------------------------------
@@ -40,7 +40,7 @@ strategy: random         probability_winning: 74.20%
 
 ```commandline
 num_simulations: 100000
-num_fruits: 10
+num_each_fruit: 10
 num_raven_winning: 9
 num_fruits_taken_if_dice_shows_basket: 1
 ----------------------------------------------------
@@ -51,7 +51,7 @@ strategy: random         probability_winning: 40.83%
 
 ```commandline
 num_simulations: 100000
-num_fruits: 10
+num_each_fruit: 10
 num_raven_winning: 9
 num_fruits_taken_if_dice_shows_basket: 2
 ----------------------------------------------------
